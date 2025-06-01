@@ -71,12 +71,12 @@ All data is cleaned, semantically chunked, tagged using NER, and embedded with `
    git clone https://github.com/your-username/healthguru.git
    cd healthguru
 2. **Create .env file in root:**
-   GOOGLE_API_KEY=your gemini api key
-   PINECONE_API_KEY=your pinecone api key
-   GROQ_API_KEY=your groq api key
-   TAVILY_API_KEY="your tavily search api key"
-   index_name="your pinecone index name"
-   model="gemini-2.0-flash"
+  - GOOGLE_API_KEY=your gemini api key
+  - PINECONE_API_KEY=your pinecone api key
+  - GROQ_API_KEY=your groq api key
+  - TAVILY_API_KEY="your tavily search api key"
+  - index_name="your pinecone index name"
+  - model="gemini-2.0-flash"
 
    ```bash
    run app.py
