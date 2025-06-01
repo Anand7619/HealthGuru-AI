@@ -64,11 +64,15 @@ All data is cleaned, semantically chunked, tagged using NER, and embedded with `
 - Tavily API key for WebSearch fallback
 - LangChain and LangGraph
 
+### WorkFlow
+![image](https://github.com/user-attachments/assets/2ec60492-f718-455b-b4ea-05bcca9557ab)
+
+
 ### Steps
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/healthguru.git
+   git clone https://github.com/Anand7619/HealthGuru-AI.git
    cd healthguru
 2. **Create .env file in root:**
   - GOOGLE_API_KEY=your gemini api key
